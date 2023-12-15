@@ -1,0 +1,225 @@
+/* Universal */
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10px;
+    text-align: color;
+    font-weight: normal;
+    /* border-color: red;
+    border-style: solid; */
+}
+
+/* Webpage */
+.webpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 60px;
+    color: goldenrod;
+}
+
+/* Sign-In Box */
+.sign-in-box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 64px;
+    /* align-items: center; */
+    width: 425px;
+    height: 315px;
+    padding: 5px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+/* Enter Text Box */
+.entertext {
+    width: auto;
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+/* Password Column (Has the Password text and Forgot Password Link */
+.passwordcol {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+}
+
+/* This changes the margins for the "passwordcol" class content */
+.passwordrow {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+/* Continue Button */
+.continue-button {
+    background-color: gold;
+    border-style: solid;
+    border-color: goldenrod;
+    border-width: 1px;
+    width: auto;
+    font-size: 16px;
+    padding: 5px;
+}
+
+/* Continue Button when clicked */
+.continue-button:active {
+    background-color: yellow;
+    border-style: solid;
+    border-color:orangered;
+    border-width: 1px;
+    width: auto;
+    font-size: 16px;
+    padding: 5px;
+    color: navy;
+}
+
+/* This changes the text color to gray */
+.gray-title {
+    color:gray;
+}
+
+/* Create Your Amazon Account Button */
+.gray-button {
+    background-color:whitesmoke;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    width: auto;
+    font-size: 16px;
+    padding: 5px;
+}
+
+/* Create Your Amazon Account Button when clicked*/
+.gray-button:active {
+    background-color:dimgray;
+    border-style: solid;
+    border-color:black;
+    border-width: 1px;
+    width: auto;
+    font-size: 16px;
+    padding: 5px;
+    color: silver;
+    font-weight:bold;
+}
+
+/* This is an invisible box where the New to Amazon text and the Gray Button are located */
+.new-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 430px;
+    text-align: center;
+}
+
+/* This is the row which has the gray-line and the New to Amazon text */
+.between-row {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+}
+
+/* This literally is a gray line left and right of the New to Amazon text */
+.gray-line {
+    background-color: gray;
+    height:1px;
+    width:120px;
+    margin-top: 18px;
+}
+
+/* This is ALL links */
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+/* This is a row that has the links above the copyright message */
+.bottomrow {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+/* This is a long silver line that goes across the webpage near the bottom */
+.long-line {
+    background-color: silver;
+    height:2px;
+    width:480px;
+    margin-top: 40px;
+}
+
+/* This changes the length of the long silver line */
+@media only screen and (min-width: 700px) {
+    .long-line {
+        background-color: silver;
+        height:2px;
+        width:680px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .long-line {
+        background-color: silver;
+        height:2px;
+        width:880px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .long-line {
+        background-color: silver;
+        height:2px;
+        width:1080px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .long-line {
+        background-color: silver;
+        height:2px;
+        width:1280px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .long-line {
+        background-color: silver;
+        height:2px;
+        width:1480px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .long-line {
+        background-color: silver;
+        height:2px;
+        width:1680px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .long-line {
+        background-color: silver;
+        height:2px;
+        width:1880px;
+        margin-top: 40px;
+    }
+}
